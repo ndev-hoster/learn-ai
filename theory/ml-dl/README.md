@@ -26,6 +26,8 @@ This repository contains comprehensive notes, mathematical derivations, and intu
   - Mathematical formulas for MSE, MAE, Binary/Categorical Cross-Entropy, $R^2$, and F1-Score.
 - [**Multi-class Classification Deep Dive**](ml-crashcourse/supervised-learning/multiclass-examples.md)
   - Concrete walkthrough of One-vs-Rest and Softmax using the "Fruit Classifier" analogy.
+- [**Milestone Quiz 1: The Foundations**](ml-crashcourse/quiz-1.md)
+  - 10 high-signal questions with visualizations to test your intuition on Regression, Logistic, Naive Bayes, and KNN.
 - [**Confusion Matrix & Cost of Error Deep Dive**](ml-crashcourse/supervised-learning/confusion-matrix-deep-dive.md)
   - Understanding the trade-offs between False Positives and False Negatives with real-world scenarios.
 - [**Mathematical Proof of Bayes' Theorem**](ml-crashcourse/supervised-learning/bayes-proof.md)

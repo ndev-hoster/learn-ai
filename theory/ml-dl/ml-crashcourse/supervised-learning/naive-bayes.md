@@ -47,7 +47,18 @@ $$\hat{y} = \arg\max_{c \in C} P(c) \prod_{i=1}^{n} P(x_i | c)$$
 
 ---
 
-## 3. Why is it "Naive"? (Independence Assumption)
+## 3. How the Algorithm Works (Step-by-Step)
+
+1.  **Calculate Priors:** Look at the training data and see how often each class occurs (e.g., 40% Spam, 60% Ham).
+2.  **Calculate Likelihoods:** For each feature (e.g., the word "Winner"), calculate how likely it is to appear in each class.
+3.  **Multiply:** For a new data point, multiply the Prior by all the relevant Likelihoods.
+4.  **Decide:** Pick the class that results in the highest probability score (MAP Decision Rule).
+
+> **Example Walkthrough:** See this process in action with the [Play Tennis Dataset Walkthrough](sample-application-nb.md).
+
+---
+
+## 4. Why is it "Naive"? (Independence Assumption)
 
 In the real world, features often depend on each other (e.g., in text, the word "Hong" is usually followed by "Kong"). **Naive Bayes ignores this.** 
 
@@ -112,7 +123,25 @@ This makes the algorithm extremely stable and even faster to compute.
 
 ---
 
+## 9. Deep Dive: Why does it work so well with *less* data?
+
+It’s a common intuition that "less data = less accuracy." However, Naive Bayes is a unique exception when your dataset is small. Here is why:
+
+### 1. The "Simple vs. Complex" Student
+Think of models like students preparing for an exam with only a 5-page study guide:
+*   **A Complex Model** (like a Neural Network) tries to find deep, hidden connections between every word and punctuation mark. With only 5 pages, it starts "hallucinating" patterns that aren't actually there. This is called **Overfitting** (High Variance).
+*   **Naive Bayes** is like a student who sticks to a few simple rules (the counts of individual words). Because it is "too simple" to get confused by tiny, coincidental details, it stays focused and gives a reliable answer.
+
+### 2. The "Ceiling" (Asymptotic Error)
+*   **Naive Bayes reaches its peak quickly.** Because of the "Naive" independence assumption, it hits a performance ceiling early. Adding 10 million more rows might not make it much smarter.
+*   **Complex models start slow but have a higher ceiling.** They need massive amounts of data to "see" the true complex patterns, but once they have it, they will eventually overtake Naive Bayes in accuracy.
+
+### Summary:
+Naive Bayes has **High Bias** (it’s stubborn about its rules) but **Low Variance** (it doesn't change its mind based on a few weird data points). This makes it the "Old Reliable" of machine learning—it won't trip over its own feet when data is scarce.
+
+---
+
 ## Navigation
 - [<- Back to Main Index](../../README.md)
 - [^ Back to Chapter 2 Index](../c2-supervised-learning.md)
-- [2.2.4 K-Nearest Neighbors ->](#) (Coming Soon)
+- [2.2.4 K-Nearest Neighbors ->](knn.md)

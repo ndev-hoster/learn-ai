@@ -138,5 +138,5 @@ $$J(\beta) = -\frac{1}{m} \sum_{i=1}^{m} [y^{(i)} \log(h_\beta(x^{(i)})) + (1 - 
 ## Navigation
 - [<- Back to Main Index](../../README.md)
 - [^ Back to Chapter 2 Index](../c2-supervised-learning.md)
-- [2.2.2 Support Vector Machines ->](#) (Coming Soon)
+- [2.2.2 Support Vector Machines ->](svm.md)
 - [2.2.3 Naive Bayes ->](naive-bayes.md)

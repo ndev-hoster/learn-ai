@@ -10,14 +10,16 @@ Supervised Learning is the most common branch of Machine Learning, where the mod
 
 ## 2.2 Classification
 - [2.2.1 Logistic Regression](supervised-learning/logistic-regression.md)
-- [2.2.2 Support Vector Machines (SVM)](#) (Coming Soon)
+- [2.2.2 Support Vector Machines (SVM)](supervised-learning/svm.md)
 - [2.2.3 Naive Bayes](supervised-learning/naive-bayes.md)
-- [2.2.4 K-Nearest Neighbors (KNN)](#) (Coming Soon)
+- [2.2.4 K-Nearest Neighbors (KNN)](supervised-learning/knn.md)
 
 ## 2.3 Tree-Based & Ensemble Models
-- [2.3.1 Decision Trees](#) (Coming Soon)
-- [2.3.2 Random Forest](#) (Coming Soon)
-- [2.3.3 Boosting (AdaBoost, XGBoost, etc.)](#) (Coming Soon)
+- [2.3.1 Decision Trees (Classifier)](supervised-learning/decision-trees.md)
+- [2.3.2 Decision Tree Regression](supervised-learning/decision-tree-regression.md)
+- [2.3.3 Intro to Ensemble Learning](supervised-learning/ensemble-learning.md)
+- [2.3.4 Random Forest](supervised-learning/random-forest.md)
+- [2.3.5 Boosting (AdaBoost, XGBoost, etc.)](#) (Coming Soon)
 
 ---
 
@@ -29,5 +31,5 @@ Supervised Learning is the most common branch of Machine Learning, where the mod
 ---
 
 ## Navigation
-- [<- Back to Main Index](../../README.md)
+- [<- Back to Main Index](../README.md)
 - [Forward to Chapter 3: Unsupervised Learning](#) (Coming Soon)
