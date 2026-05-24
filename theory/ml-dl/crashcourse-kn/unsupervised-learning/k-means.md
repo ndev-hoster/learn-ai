@@ -82,7 +82,11 @@ Real-world data is rarely perfect. You might face a scenario where:
 
 ---
 
+## Example Walkthrough
+See exactly how the math works with a [Manual Centroid Migration: Step-by-Step](sample-application-k-means.md).
+
+---
+
 ## Navigation
-- [Walkthrough: K-Means (Math) ->](sample-application-k-means.md)
-- [Forward to Hierarchical Clustering ->](hierarchical-clustering.md)
-- [^ Back to Chapter 3 Index](../c3-unsupervised-learning.md)
+- [<- Back to Chapter 3 Index](../c3-unsupervised-learning.md)
+- [3.1.2 Hierarchical Clustering ->](hierarchical-clustering.md)

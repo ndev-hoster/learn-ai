@@ -53,7 +53,11 @@ Instead of guessing $K$, you look at the Dendrogram and find the **tallest verti
 
 ---
 
+## Example Walkthrough
+See the step-by-step trace of a [Distance Matrix update and Dendrogram construction](sample-application-hierarchical.md).
+
+---
+
 ## Navigation
 - [<- Back to K-Means](k-means.md)
-- [^ Back to Chapter 3 Index](../c3-unsupervised-learning.md)
-- [Forward to Walkthrough: Hierarchical (Math) ->](sample-application-hierarchical.md)
+- [3.1.3 DBSCAN Clustering ->](dbscan.md)
