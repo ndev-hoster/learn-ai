@@ -63,4 +63,4 @@ Because every tree is trained on only a subset of data, we can use the "leftover
 ## Navigation
 - [<- Back to Ensemble Learning](ensemble-learning.md)
 - [^ Back to Chapter 2 Index](../c2-supervised-learning.md)
-- [2.3.5 Boosting (XGBoost, etc.) ->](#) (Coming Soon)
+- [2.3.5 AdaBoost ->](adaboost.md)

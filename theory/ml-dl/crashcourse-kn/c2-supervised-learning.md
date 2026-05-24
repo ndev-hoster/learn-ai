@@ -19,8 +19,9 @@ Supervised Learning is the most common branch of Machine Learning, where the mod
 - [2.3.2 Decision Tree Regression](supervised-learning/decision-tree-regression.md)
 - [2.3.3 Intro to Ensemble Learning](supervised-learning/ensemble-learning.md)
 - [2.3.4 Random Forest](supervised-learning/random-forest.md)
-- [2.3.5 Boosting (AdaBoost, XGBoost, etc.)](#) (Coming Soon)
-
+- [2.3.5 AdaBoost (Adaptive Boosting)](supervised-learning/adaboost.md)
+- [2.3.6 Gradient Boosting (GBM & XGBoost)](supervised-learning/gradient-boosting.md)
+- [2.3.7 The Big Three (XGBoost, LightGBM, CatBoost)](supervised-learning/xgboost-lightgbm-catboost.md)
 ---
 
 ## 2.4 Quick References & Side Notes
@@ -32,4 +33,4 @@ Supervised Learning is the most common branch of Machine Learning, where the mod
 
 ## Navigation
 - [<- Back to Main Index](../README.md)
-- [Forward to Chapter 3: Unsupervised Learning](#) (Coming Soon)
+- [Forward to Chapter 3: Unsupervised Learning](c3-unsupervised-learning.md)
